@@ -1,0 +1,12 @@
+heroku login
+git config --global user.name alenchang  (第一次建立)
+git config --global user.email kkpigkk30@gmail.com (第一次建立)
+git init
+heroku git:remote -a fly-linebot
+--------------------------------------------------------
+以上為第一次建立要操作
+以下為每次有檔案更改時要操做
+--------------------------------------------------------
+git add .
+git commit -m "linebot"
+git push heroku master
